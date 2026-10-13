@@ -1,0 +1,13 @@
+interface:
+  display_name: 水晶手绘图鉴
+  short_description: 暖白纸底、天然水晶与互动小人，六页不同排版的手绘图鉴
+  default_prompt: 使用 $crystal-doodle-carousel 为紫水晶制作六张各有不同排版的手绘图鉴。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
